@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 900" width="1000" height="900">
+  <!-- ============ GEAR RING ============ -->
+  <g fill="#0A1F44">
+    <!-- Gear teeth (outer) -->
+    <path d="M500 40 L530 40 L545 90 L580 75 L605 100 L590 145 L635 135 L650 170 L615 205 L655 210 L660 250 L620 270 L650 295 L645 335 L605 340 L620 375 L605 410 L570 400 L575 440 L550 465 L525 445 L525 490 L500 500 L475 490 L475 445 L450 465 L425 440 L430 400 L395 410 L380 375 L395 340 L355 335 L350 295 L380 270 L340 250 L345 210 L385 205 L350 170 L365 135 L410 145 L395 100 L420 75 L455 90 L470 40 Z"
+      fill="none" stroke="#0A1F44" stroke-width="35" stroke-linejoin="round"/>
+  </g>
+  <!-- White inner area -->
+  <circle cx="500" cy="270" r="215" fill="#FFFFFF"/>
+
+  <!-- ============ CENTER WORKER ============ -->
+  <!-- Body / shoulders (navy) -->
+  <path d="M370 400 Q370 320 430 300 L570 300 Q630 320 630 400 L630 430 L370 430 Z" fill="#0A1F44"/>
+  <!-- Safety vest (gold) -->
+  <path d="M405 310 L430 300 L450 420 L405 420 Z" fill="#C9A227"/>
+  <path d="M595 310 L570 300 L550 420 L595 420 Z" fill="#C9A227"/>
+  <path d="M450 420 L550 420 L550 440 L450 440 Z" fill="#C9A227"/>
+  <!-- Vest reflective stripes -->
+  <rect x="405" y="345" width="45" height="8" fill="#FFFFFF"/>
+  <rect x="550" y="345" width="45" height="8" fill="#FFFFFF"/>
+
+  <!-- Neck -->
+  <rect x="475" y="270" width="50" height="45" fill="#0A1F44"/>
+
+  <!-- Head -->
+  <circle cx="500" cy="240" r="60" fill="#0A1F44"/>
+
+  <!-- Hard hat (gold) -->
+  <path d="M430 210 Q430 165 500 165 Q570 165 570 210 L570 225 L430 225 Z" fill="#C9A227"/>
+  <rect x="425" y="215" width="150" height="18" rx="6" fill="#C9A227"/>
+  <rect x="490" y="165" width="20" height="50" fill="#FFFFFF" opacity="0.85"/>
+  <rect x="445" y="175" width="15" height="40" fill="#FFFFFF" opacity="0.85"/>
+  <rect x="540" y="175" width="15" height="40" fill="#FFFFFF" opacity="0.85"/>
+
+  <!-- ============ FOUR SIDE ICONS (circles) ============ -->
+  <!-- Top-left: helmet circle (navy-light) -->
+  <circle cx="330" cy="215" r="55" fill="#1A3A6B"/>
+  <path d="M305 230 Q305 200 330 200 Q355 200 355 230 L355 240 L305 240 Z" fill="#FFFFFF"/>
+  <rect x="300" y="235" width="60" height="8" rx="3" fill="#FFFFFF"/>
+  <rect x="322" y="200" width="16" height="35" fill="#1A3A6B"/>
+
+  <!-- Top-right: warning triangle (gold circle) -->
+  <circle cx="670" cy="215" r="55" fill="#C9A227"/>
+  <path d="M670 185 L700 235 L640 235 Z" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round"/>
+  <rect x="666" y="200" width="8" height="20" rx="2" fill="#FFFFFF"/>
+  <circle cx="670" cy="226" r="4" fill="#FFFFFF"/>
+
+  <!-- Bottom-left: heart (gold circle) -->
+  <circle cx="290" cy="370" r="55" fill="#C9A227"/>
+  <path d="M265 365 Q265 350 280 350 Q290 350 290 360 Q290 350 300 350 Q315 350 315 365 Q315 385 290 400 Q265 385 265 365 Z" fill="none" stroke="#FFFFFF" stroke-width="5"/>
+  <path d="M270 372 L282 372 L288 365 L294 380 L300 372 L310 372" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Bottom-right: leaf (gold circle) -->
+  <circle cx="710" cy="370" r="55" fill="#C9A227"/>
+  <path d="M710 340 Q740 355 735 390 Q720 415 690 400 Q695 365 710 340 Z" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round"/>
+  <line x1="710" y1="345" x2="695" y2="395" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- ============ HANDS CUP ============ -->
+  <!-- Left hand (navy) -->
+  <path d="M180 380 Q160 480 220 550 Q290 620 400 620 L400 580 Q310 580 250 520 Q210 470 220 400 Z" fill="#0A1F44"/>
+  <!-- Right hand (navy) -->
+  <path d="M820 380 Q840 480 780 550 Q710 620 600 620 L600 580 Q690 580 750 520 Q790 470 780 400 Z" fill="#0A1F44"/>
+
+  <!-- ============ ISTC LETTERS (navy) ============ -->
+  <g font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="180" fill="#0A1F44" text-anchor="middle">
+    <text x="330" y="560">I</text>
+    <text x="450" y="560">S</text>
+    <text x="620" y="560">T</text>
+    <text x="760" y="560">C</text>
+  </g>
+
+  <!-- Green/gold swoosh through letters -->
+  <path d="M240 570 Q400 610 620 555 Q680 540 720 560 L720 575 Q660 590 600 585 Q400 640 240 590 Z" fill="#C9A227"/>
+
+  <!-- ============ BOTTOM CURVED ARC (gold) ============ -->
+  <path d="M120 600 Q500 800 880 600 Q870 640 840 665 Q500 850 160 665 Q130 640 120 600 Z" fill="#C9A227"/>
+
+  <!-- ============ TEXT BELOW ============ -->
+  <!-- Line 1: INTEGRATED SAFETY TRAINING -->
+  <text x="500" y="760" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="60" fill="#0A1F44" text-anchor="middle" letter-spacing="2">INTEGRATED SAFETY TRAINING</text>
+
+  <!-- Line 2: AND CONSULTANCY SERVICES -->
+  <text x="500" y="810" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="46" fill="#C9A227" text-anchor="middle" letter-spacing="2">AND CONSULTANCY SERVICES</text>
+
+  <!-- ============ BOTTOM DIVIDER + (ISTC) ============ -->
+  <line x1="160" y1="840" x2="380" y2="840" stroke="#C9A227" stroke-width="6"/>
+  <line x1="620" y1="840" x2="840" y2="840" stroke="#C9A227" stroke-width="6"/>
+  <text x="500" y="855" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="50" fill="#0A1F44" text-anchor="middle">(ISTC)</text>
+</svg>
